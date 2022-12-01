@@ -1,7 +1,8 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
+        method();
+    }
+        public static void method(){
         Fish fish = new Fish();
         fish.setName("Borya");
         fish.setAge(1);
